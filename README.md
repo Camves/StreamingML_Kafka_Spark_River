@@ -31,8 +31,6 @@ Eficiência e Simplicidade: River oferece uma abordagem mais eficiente e direta 
 
 Menor Sobrecarga: Em comparação com o TensorFlow, que é mais pesado e complexo, o River tem uma sobrecarga menor e é mais fácil de integrar e gerenciar para tarefas específicas de streaming e aprendizado incremental.
 
-Adequação ao Projeto: Para o nosso objetivo de processar dados em streaming e realizar previsões rápidas, o River fornece as funcionalidades necessárias sem a complexidade adicional do TensorFlow. O TensorFlow seria mais apropriado para modelos de aprendizado profundo e redes neurais complexas, que não são o foco principal deste projeto.
-
 ## Contribuição
 Se você tiver sugestões ou encontrar problemas, fique à vontade para abrir uma issue ou enviar um pull request.
 
