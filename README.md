@@ -18,7 +18,7 @@ Você pode instalar essas dependências usando o `pip`:
 
 ```bash
 pip install kafka-python pyspark river
-
+```bash
 Aqui está a parte formatada para você copiar e colar diretamente no GitHub:
 
 markdown
