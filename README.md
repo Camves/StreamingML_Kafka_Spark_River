@@ -21,10 +21,6 @@ pip install kafka-python pyspark river
 
 Certifique-se também de que o Kafka está rodando na porta `localhost:9092`.
 
-## Scripts
-
-### `exec.py`
-
 ## Por que River ao invés de TF?
 
 Optamos pelo River em vez do TensorFlow para este projeto por várias razões:
