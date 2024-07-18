@@ -25,23 +25,8 @@ Certifique-se também de que o Kafka está rodando na porta `localhost:9092`.
 
 ### `exec.py`
 
-Este script executa os scripts `kafka_producer.py` e `spark_streaming.py` em paralelo. Para usá-lo, execute:
+## Por que River ao invés de TF?
 
-bash
-python exec.py
-kafka_producer.py
-Este script cria e envia dados fictícios para um tópico Kafka chamado dados_teste. Os dados incluem características (feature1, feature2) e um rótulo (label). Para executá-lo, use:
-
-bash
-Copiar código
-python kafka_producer.py
-spark_streaming.py
-Este script lê os dados do tópico Kafka dados_teste, processa esses dados usando PySpark e um modelo River, e envia previsões para um tópico Kafka chamado predicoes. Para executá-lo, use:
-
-bash
-Copiar código
-python spark_streaming.py
-Escolha do River em vez do TensorFlow
 Optamos pelo River em vez do TensorFlow para este projeto por várias razões:
 
 Processamento de Fluxo de Dados: O River é uma biblioteca especializada em aprendizado de máquina para fluxo de dados (streaming). Ela é projetada para lidar com dados que chegam continuamente, o que é ideal para cenários de streaming em tempo real, como o nosso caso com o Kafka e o PySpark.
@@ -52,8 +37,8 @@ Menor Sobrecarga: Em comparação com o TensorFlow, que é mais pesado e complex
 
 Adequação ao Projeto: Para o nosso objetivo de processar dados em streaming e realizar previsões rápidas, o River fornece as funcionalidades necessárias sem a complexidade adicional do TensorFlow. O TensorFlow seria mais apropriado para modelos de aprendizado profundo e redes neurais complexas, que não são o foco principal deste projeto.
 
-Contribuição
+## Contribuição
 Se você tiver sugestões ou encontrar problemas, fique à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
