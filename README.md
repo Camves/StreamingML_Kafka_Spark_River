@@ -16,13 +16,9 @@ Antes de executar os scripts, você deve ter o Kafka e o Spark instalados e em e
 
 Você pode instalar essas dependências usando o `pip`:
 
-```bash
 pip install kafka-python pyspark river
-```bash
-Aqui está a parte formatada para você copiar e colar diretamente no GitHub:
 
-markdown
-Copiar código
+
 Certifique-se também de que o Kafka está rodando na porta `localhost:9092`.
 
 ## Scripts
