@@ -27,7 +27,7 @@ Certifique-se também de que o Kafka está rodando na porta `localhost:9092`.
 
 Este script executa os scripts `kafka_producer.py` e `spark_streaming.py` em paralelo. Para usá-lo, execute:
 
-```bash
+bash
 python exec.py
 kafka_producer.py
 Este script cria e envia dados fictícios para um tópico Kafka chamado dados_teste. Os dados incluem características (feature1, feature2) e um rótulo (label). Para executá-lo, use:
