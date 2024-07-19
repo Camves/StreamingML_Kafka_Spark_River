@@ -34,5 +34,3 @@ Menor Sobrecarga: Em comparação com o TensorFlow, que é mais pesado e complex
 ## Contribuição
 Se você tiver sugestões ou encontrar problemas, fique à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
