@@ -4,7 +4,7 @@ Este repositório contém scripts para enviar e processar dados em tempo real us
 
 1. **`exec.py`** - Script para executar múltiplos scripts em paralelo.
 2. **`kafka_carregar_dados.py`** - Script para gerar e enviar dados fictícios para um tópico Kafka.
-3. **`spark_streaming.py`** - Script para processar dados de um tópico Kafka e fazer previsões com um modelo River, utilizando PySpark.
+3. **`streaming_learning.py`** - Script para processar dados de um tópico Kafka e fazer previsões com um modelo River, utilizando PySpark.
 
 No arquivo **`kafka_carregar_dados.py`**, os dados gerados divergem, sintam-se livres para alterar as funções dos dados gerados. É interessante que sejam realizados testes com diferentes modelos
 para que sejam encontrados os melhores resultados de acordo com as funções selecionadas.
