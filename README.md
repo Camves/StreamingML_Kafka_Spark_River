@@ -3,8 +3,11 @@
 Este repositório contém scripts para enviar e processar dados em tempo real usando Kafka e PySpark. O projeto é dividido em três scripts principais:
 
 1. **`exec.py`** - Script para executar múltiplos scripts em paralelo.
-2. **`kafka_producer.py`** - Script para gerar e enviar dados fictícios para um tópico Kafka.
+2. **`kafka_carregar_dados.py`** - Script para gerar e enviar dados fictícios para um tópico Kafka.
 3. **`spark_streaming.py`** - Script para processar dados de um tópico Kafka e fazer previsões com um modelo River, utilizando PySpark.
+
+No arquivo **`kafka_carregar_dados.py`**, os dados gerados divergem, sintam-se livres para alterar as funções dos dados gerados. É interessante que sejam realizados testes com diferentes modelos
+para que sejam encontrados os melhores resultados de acordo com as funções selecionadas.
 
 ## Pré-requisitos
 
@@ -16,8 +19,9 @@ Antes de executar os scripts, você deve ter o Kafka e o Spark instalados e em e
 
 Você pode instalar essas dependências usando o `pip`:
 
+```
 pip install kafka-python pyspark river
-
+```
 
 Certifique-se também de que o Kafka está rodando na porta `localhost:9092`.
 
