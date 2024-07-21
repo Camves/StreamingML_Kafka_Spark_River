@@ -9,7 +9,7 @@ def create_data():
     global x,y,z
     x = x *1.4
     y = y *1.2
-    z = z * 1.3  # Alternar entre 0 e 1 para ter valores de label como binários
+    z = z * 1.3 
     return {'feature1': x, 'feature2': y, 'label': z}
 
 # Criar produtor Kafka
